@@ -1,6 +1,6 @@
 import { fromCamel, Helper, PendingQuery, Row, Sql, toCamel } from 'postgres'
-import { Type } from '../../type/common.type'
-import { chunk } from '../../utils/collection'
+import { Type } from '../util/common.type'
+import { chunk } from '../util/collection'
 import { DB_METADATA } from '../inspector'
 import { DbColumn, DbTable, UdtName } from '../inspector/type'
 import { parseSort } from '../util'

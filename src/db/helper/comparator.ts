@@ -1,5 +1,5 @@
 import { PendingQuery, Row, Sql } from 'postgres'
-import { Type } from '../../type/common.type'
+import { Type } from '../util/common.type'
 import { DB_METADATA } from '../inspector'
 
 type ToSqlParams<T extends object | undefined> = {

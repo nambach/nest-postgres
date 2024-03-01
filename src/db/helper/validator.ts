@@ -1,4 +1,4 @@
-import { Type } from '../../type/common.type'
+import { Type } from '../util/common.type'
 import { DB_METADATA } from '../inspector'
 import { AppDto, Load, Order, PartialLoad, Select } from './type'
 

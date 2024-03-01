@@ -1,6 +1,6 @@
 import { fromCamel, toCamel } from 'postgres'
-import { Type } from '../../type/common.type'
-import { groupBySingle } from '../../utils/collection'
+import { Type } from '../util/common.type'
+import { groupBySingle } from '../util/collection'
 import { deferredCache } from '../helper/decorator'
 import { ClassCache, DbColumn, DbRelation, DbTable, TableCache } from './type'
 

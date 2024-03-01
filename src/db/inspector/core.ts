@@ -1,5 +1,5 @@
 import { Sql, toPascal } from 'postgres'
-import { groupBy, groupBySingle } from '../../utils/collection'
+import { groupBy, groupBySingle } from '../util/collection'
 import { abbrSnakeCase } from '../util'
 import { PostgresForeignKey, PostgresTable, TableCache } from './type'
 

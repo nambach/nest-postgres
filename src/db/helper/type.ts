@@ -1,9 +1,4 @@
-import {
-  KeyOfNotType,
-  KeyOfType,
-  LooseString,
-  Type,
-} from '../../type/common.type'
+import { KeyOfNotType, KeyOfType, LooseString, Type } from '../util/common.type'
 
 export type AppDto = object | undefined
 
